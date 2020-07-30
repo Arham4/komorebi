@@ -1,0 +1,4 @@
+__package_name__ = @PACKAGE_NAME@
+__version__ = @PACKAGE_VERSION@
+__package_datadir__ = @PKGDATADIR@
+__datadir__ = @DATADIR@
