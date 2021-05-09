@@ -1,0 +1,20 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# CI config
+[*.{yml,yaml}]
+indent_style = space
+indent_size = 2
+
+# Python and generated Python source code
+[{*.py,komorebi/*.in}]
+indent_style = space
+indent_size = 4
+
+# Meson build files
+[*.build]
+indent_style = space
+indent_size = 4
